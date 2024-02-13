@@ -27,7 +27,7 @@ class Perceptron:
 
 #test code
 neuron = Perceptron(inputs=2)
-neuron.set_weights([10,10,-15]) #AND
+neuron.set_weights([10,10,-15]) #AND 10,10 are inputs, -15 is bias
 
 print("Gate:")
 print ("0 0 = {0:.10f}".format(neuron.run([0,0])))
