@@ -56,7 +56,7 @@ class MultiLayerPerceptron:
     def set_weights(self, w_init):
         # Write all the weights into the neural network.
         # w_init is a list of floats. Organize it as you'd like. 
-        pass       
+        self.weights = np.array(w_init)   
 
     def print_weights(self):
         print()
@@ -68,5 +68,6 @@ class MultiLayerPerceptron:
     def run(self, x):
         # Run an input forward through the neural network.
         # x is a python list with the input values.
+        
         return self.values[-1]
         
